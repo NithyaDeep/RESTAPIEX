@@ -38,3 +38,5 @@ C:\Users\nithy_zqpc6ke\Documents\Nithya\Core\CommandAPISolution\src\CommandAPI\b
 C:\Users\nithy_zqpc6ke\Documents\Nithya\Core\CommandAPISolution\src\CommandAPI\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Users\nithy_zqpc6ke\Documents\Nithya\Core\CommandAPISolution\src\CommandAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\nithy_zqpc6ke\Documents\Nithya\Core\CommandAPISolution\src\CommandAPI\obj\Debug\netcoreapp3.1\CommandAPI.csproj.CopyComplete
+C:\Users\nithy_zqpc6ke\Documents\Nithya\Core\CommandAPISolution\src\CommandAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\nithy_zqpc6ke\Documents\Nithya\Core\CommandAPISolution\src\CommandAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
