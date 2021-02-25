@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {}
+    "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
+    "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
+        "projectUniqueName": "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
         "projectName": "CommandAPI",
-        "projectPath": "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
+        "projectPath": "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
         "packagesPath": "C:\\Users\\nithy_zqpc6ke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\obj\\",
+        "outputPath": "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nithy_zqpc6ke\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,18 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.3, )"
@@ -71,18 +83,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {
+    "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
         "projectName": "CommandAPI.Tests",
-        "projectPath": "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
+        "projectPath": "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
         "packagesPath": "C:\\Users\\nithy_zqpc6ke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\test\\CommandAPI.Tests\\obj\\",
+        "outputPath": "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\test\\CommandAPI.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nithy_zqpc6ke\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,8 +110,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
-                "projectPath": "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj"
+              "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
+                "projectPath": "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj"
               }
             }
           }
@@ -113,9 +125,21 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -141,14 +165,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

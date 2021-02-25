@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {}
+    "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
+    "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
+        "projectUniqueName": "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
         "projectName": "CommandAPI",
-        "projectPath": "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
+        "projectPath": "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
         "packagesPath": "C:\\Users\\nithy_zqpc6ke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nithy_zqpc6ke\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\obj\\",
+        "outputPath": "C:\\Users\\nithy_zqpc6ke\\OneDrive\\Documents\\Nithya\\Core\\CommandAPISolution\\src\\CommandAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nithy_zqpc6ke\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,14 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
