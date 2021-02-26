@@ -21,7 +21,7 @@ namespace CommandAPI.Controllers
             _mapper = mapper;
         }
         [HttpGet]
-        public ActionResult<IEnumerable<CommandReadDto>> Get()
+        public ActionResult<IEnumerable<CommandReadDto>> GetAllCommands()
         {
             //return new string[] { "this", "is", "hard", "coded" };
             var commandItems = _repository.GetAllCommands();
